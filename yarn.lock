@@ -918,13 +918,13 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@intlify/bundle-utils@next":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@intlify/bundle-utils/-/bundle-utils-2.1.0.tgz#2d5ca80335dcccb8f1d72423e7261b2d23a0cda2"
-  integrity sha512-ogvmAjbSq0su4ijQbwqRfb0yimizZSK+HHV0SF3XCHSCtL+PDdRIDkkeNpNdPxNmdahORHXknC06Umehz4nTnQ==
+"@intlify/bundle-utils@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@intlify/bundle-utils/-/bundle-utils-2.2.2.tgz#fe65ce2549a73b99b75f3e66209d741b4f4d61fd"
+  integrity sha512-vngkvlIVV8ZJoyC5VqMvqJd2nvsx+qMN7pQjPiPjOrVndeiR7Dlue0k86Q8FsFUzyksW3HJZZi833ldxwbFzTA==
   dependencies:
-    "@intlify/message-compiler" beta
-    "@intlify/shared" beta
+    "@intlify/message-compiler" "^9.1.0"
+    "@intlify/shared" "^9.1.0"
     jsonc-eslint-parser "^1.0.1"
     source-map "^0.6.1"
     yaml-eslint-parser "^0.3.2"
@@ -954,23 +954,29 @@
     "@intlify/shared" "9.2.0-beta.20"
     source-map "0.6.1"
 
-"@intlify/message-compiler@beta":
-  version "9.2.0-beta.21"
-  resolved "https://registry.yarnpkg.com/@intlify/message-compiler/-/message-compiler-9.2.0-beta.21.tgz#fb72c5f67ab31240b1416ef322c27d4d5a878bb6"
-  integrity sha512-Dk84bcd/REMxHCcS8PaWnoimGYZFVoxA5DE46Y4PaF7DSh6o9V2ckjHPE+O6/G9JPHlmH1Bmtl3G28xzP3tAXw==
+"@intlify/message-compiler@^9.1.0":
+  version "9.1.10"
+  resolved "https://registry.yarnpkg.com/@intlify/message-compiler/-/message-compiler-9.1.10.tgz#271f5e1cb65f3cec4b1fb243e50615747613f4be"
+  integrity sha512-+JiJpXff/XTb0EadYwdxOyRTB0hXNd4n1HaJ/a4yuV960uRmPXaklJsedW0LNdcptd/hYUZtCkI7Lc9J5C1gxg==
   dependencies:
-    "@intlify/shared" "9.2.0-beta.21"
+    "@intlify/message-resolver" "9.1.10"
+    "@intlify/shared" "9.1.10"
     source-map "0.6.1"
+
+"@intlify/message-resolver@9.1.10":
+  version "9.1.10"
+  resolved "https://registry.yarnpkg.com/@intlify/message-resolver/-/message-resolver-9.1.10.tgz#fb1dabdec2e29942df26f47e19444278a6e2f070"
+  integrity sha512-5YixMG/M05m0cn9+gOzd4EZQTFRUu8RGhzxJbR1DWN21x/Z3bJ8QpDYj6hC4FwBj5uKsRfKpJQ3Xqg98KWoA+w==
+
+"@intlify/shared@9.1.10", "@intlify/shared@^9.1.0":
+  version "9.1.10"
+  resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.1.10.tgz#9e2527276b43ae3f354c4015eb04f855d9d7a707"
+  integrity sha512-Om54xJeo1Vw+K1+wHYyXngE8cAbrxZHpWjYzMR9wCkqbhGtRV5VLhVc214Ze2YatPrWlS2WSMOWXR8JktX/IgA==
 
 "@intlify/shared@9.2.0-beta.20":
   version "9.2.0-beta.20"
   resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.2.0-beta.20.tgz#a434928e5526580312658fdc3da86e5c398a840d"
   integrity sha512-mwdvobi1gBNWt+dgd68IuRHG3xh6BXs0472ZO8vClr49HOhoVg9M+myQQntBQBHblcXreM8NX/pLkBzXSyUfmQ==
-
-"@intlify/shared@9.2.0-beta.21", "@intlify/shared@beta":
-  version "9.2.0-beta.21"
-  resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.2.0-beta.21.tgz#5561ee06fe6c0f21ff0538fd154b7dd836f64161"
-  integrity sha512-A4MgJqraJ30q6nb4FhkbEhSaRzPhBaXFyw31aBQEA2b3/pYKpuRopYB+ouPGKk6A1iL0WE1uZU4Emf+DtsU44w==
 
 "@intlify/vue-devtools@9.2.0-beta.20":
   version "9.2.0-beta.20"
@@ -980,13 +986,13 @@
     "@intlify/core-base" "9.2.0-beta.20"
     "@intlify/shared" "9.2.0-beta.20"
 
-"@intlify/vue-i18n-loader@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@intlify/vue-i18n-loader/-/vue-i18n-loader-4.0.1.tgz#2bac7b20293bcee9c11ddc34cb4982ed0d64aec9"
-  integrity sha512-xI859YIFDBztdqSQqlfD44ijH0Z4y+DJGDIWbClc4RXSfOgS/Zm2v1Bd3WN9CFYSQOeU6ARTcx4K3izxgtWMVA==
+"@intlify/vue-i18n-loader@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@intlify/vue-i18n-loader/-/vue-i18n-loader-4.2.0.tgz#d7474e865721478f3754639963cf617bba825d62"
+  integrity sha512-d7aBmMNWJskcZPT5rJH4h2XHe/PwNoJUaY0PGla9g+NSD4B0UR8LBKrp126nlaUfA74Xt0FEGvzCfG9KdC9KoA==
   dependencies:
-    "@intlify/bundle-utils" next
-    "@intlify/shared" beta
+    "@intlify/bundle-utils" "^2.2.2"
+    "@intlify/shared" "^9.1.0"
     js-yaml "^4.1.0"
     json5 "^2.2.0"
     loader-utils "^2.0.0"
