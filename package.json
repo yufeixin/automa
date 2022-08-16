@@ -80,7 +80,7 @@
     "source-map-loader": "3.0.0",
     "style-loader": "3.3.0",
     "tailwindcss": "2.2.16",
-    "terser-webpack-plugin": "5.2.4",
+    "terser-webpack-plugin": "5.3.5",
     "vue-loader": "16.8.1",
     "webpack": "5.55.1",
     "webpack-cli": "4.8.0",
